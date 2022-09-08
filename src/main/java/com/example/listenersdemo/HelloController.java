@@ -31,11 +31,6 @@ public class HelloController implements Initializable {
         setUpButtons();
 
 
-
-
-
-
-
     }
 
     private void setUpButtons() {
