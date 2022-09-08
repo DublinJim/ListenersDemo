@@ -28,6 +28,17 @@ public class HelloController implements Initializable {
         lbl1.setText("One");
         lbl2.setText("Two");
 
+        setUpButtons();
+
+
+
+
+
+
+
+    }
+
+    private void setUpButtons() {
         btn1.setText("Button 1");
         btn2.setText("Button 2");
         btn3.setText("Button 3");
@@ -43,10 +54,17 @@ public class HelloController implements Initializable {
         ImageView button2Icon = new ImageView(picForButton2);
         ImageView button3Icon = new ImageView(picForButton3);
 
+        button3Icon.setFitHeight(24);
+        button3Icon.setFitWidth(24);
+
+        button2Icon.setFitHeight(24);
+        button2Icon.setFitWidth(24);
+
+        button1Icon.setFitHeight(24);
+        button1Icon.setFitWidth(24);
+
         btn1.setGraphic(button1Icon);
         btn2.setGraphic(button2Icon);
         btn3.setGraphic(button3Icon);
-
-
     }
 }
